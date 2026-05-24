@@ -5,7 +5,11 @@ Personal configuration for the [Pi coding agent](https://pi.dev).
 ## Contents
 
 - `settings.json` - global Pi settings, including default provider/model and theme.
-- `extensions/` - local TypeScript extensions.
+- `extensions/` - local TypeScript extensions:
+  - `compact-codeblocks.ts` - removes markdown code fences in the TUI and renders compact code blocks.
+  - `context-progress-footer.ts` - custom footer with context usage and session stats.
+  - `permission-gate.ts` - confirmation prompts for sensitive/destructive operations.
+  - `question.ts` / `questionnaire.ts` - interactive clarification tools.
 - `themes/` - custom themes.
 
 ## Not tracked
