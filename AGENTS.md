@@ -37,3 +37,17 @@ If there is no associated issue, omit the issue number:
 ```text
 feat/implement-something
 ```
+
+## Issues
+
+When creating issues, write titles that describe the problem to solve, not just the proposed implementation.
+
+Start issue bodies with a BDD-style user story, then add further details below:
+
+```text
+As a <type of user>,
+I want <goal>,
+So that <benefit>.
+```
+
+Use the remaining issue body for context, acceptance criteria, constraints, risks, links, or implementation notes as appropriate.
