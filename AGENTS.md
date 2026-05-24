@@ -17,3 +17,9 @@ If no scope is useful, use:
 ```
 
 Common types include `feat`, `fix`, `docs`, `refactor`, `test`, and `chore`.
+
+If an issue is referenced for the work, include it in the commit subject, for example:
+
+```text
+chore: do the thing (#123)
+```
