@@ -4,6 +4,7 @@ Personal configuration for the [Pi coding agent](https://pi.dev).
 
 ## Contents
 
+- `AGENTS.md` - lightweight global instructions for Pi sessions.
 - `settings.json` - global Pi settings, including default provider/model and theme.
 - `extensions/` - local TypeScript extensions:
   - `compact-codeblocks.ts` - removes markdown code fences in the TUI and renders compact code blocks.
