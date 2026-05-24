@@ -23,3 +23,17 @@ If an issue is referenced for the work, include it in the commit subject, for ex
 ```text
 chore: do the thing (#123)
 ```
+
+## Branches
+
+When creating branches, include the work type in the branch name. If an issue is associated with the work, include the issue number after the type:
+
+```text
+chore/123-implement-something
+```
+
+If there is no associated issue, omit the issue number:
+
+```text
+feat/implement-something
+```
