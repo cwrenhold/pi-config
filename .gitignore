@@ -1,0 +1,36 @@
+# Sensitive credentials / auth
+/auth.json
+/auth.json.*
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Pi session history can contain prompts, tool output, tokens, or secrets
+/sessions/
+
+# Installed packages and downloaded helper binaries are reproducible/local
+/bin/
+/npm/
+/git/
+node_modules/
+
+# Runtime/cache/temp/log output
+/cache/
+/tmp/
+/temp/
+/logs/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
